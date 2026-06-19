@@ -1,0 +1,26 @@
+{
+  "name": "@excel-editor/api",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "nest start --watch",
+    "build": "tsc -p tsconfig.build.json",
+    "start": "node dist/main.js"
+  },
+  "dependencies": {
+    "@nestjs/common": "latest",
+    "@nestjs/core": "latest",
+    "@nestjs/platform-express": "latest",
+    "@nestjs/cli": "latest",
+    "express": "latest",
+    "reflect-metadata": "latest",
+    "exceljs": "latest",
+    "rxjs": "latest"
+  },
+  "devDependencies": {
+    "@types/express": "latest",
+    "@types/multer": "latest",
+    "@types/node": "latest",
+    "typescript": "latest"
+  }
+}
